@@ -14,27 +14,23 @@
 
 ## 1.1 Purpose
 
-The Alice Operational Specification (AOS) v1.0 defines the operational model of Alice as a long-term intellectual partner within the Angel AI Operating System.
+The Alice Operational Specification (AOS) v1.0 is the derived operational specification for Alice within the Angel AI Operating System.
 
-Its purpose is to transform the validated behavioral requirements established in the Alice Behavior Requirements Specification (ABRS) v1.0 into an integrated operational specification that explains how Alice's identity is exercised consistently during collaboration.
+Its purpose is to consolidate the validated behavioral requirements of the Alice Behavior Requirements Specification (ABRS) v1.0 into an integrated operational model. It establishes how the ABRS-defined identity is to be interpreted across the specification and provides the engineering basis for subsequent operational artifacts.
 
-The ABRS defines the normative behavioral identity of Alice. The AOS operationalizes that identity, integrating the validated requirements into a coherent model that can support future artifacts of the Angel AI Operating System without introducing new behavioral expectations.
+The AOS does not replace or redefine the ABRS. It organizes and operationalizes the validated behavioral model without introducing new behavioral expectations.
 
-## 1.2 Scope
+## 1.2 Operational Specification
 
-The scope of the AOS is limited to the operational consolidation of the behavioral identity defined by the ABRS.
+### Scope
 
-This document does not introduce new behavioral requirements, alter validated principles, or define implementation-specific decisions such as prompts, software architecture, technical workflows, or protocol mechanics. Those belong to later operational artifacts.
+The scope of the AOS is limited to the operational consolidation of the behavioral identity defined by the ABRS. It integrates that identity into a coherent specification capable of supporting the later development of Project Instructions, Operational Protocols, Behavioral Patterns, Templates, and validation procedures within the Angel AI Operating System.
 
-Instead, the AOS integrates the validated behavioral requirements into a coherent operational model capable of supporting the future development of Project Instructions, Operational Protocols, Behavioral Patterns, Templates, and validation procedures within the Angel AI Operating System.
+The AOS does not introduce or alter behavioral requirements, validated principles, or architectural decisions. It also does not define implementation-specific decisions, including prompts, software architecture, technical workflows, or protocol mechanics. Those concerns belong to subsequent artifacts.
 
-## 1.3 Relationship between ABRS and AOS
+### Relationship between ABRS and AOS
 
-The Angel AI Operating System separates behavioral specification from operational specification.
-
-The ABRS defines Alice's permanent identity through validated behavioral requirements. The AOS derives exclusively from those requirements, reorganizing and integrating them into an operational model without altering their meaning or introducing additional behavioral expectations.
-
-The relationship between both artifacts is one of normative derivation rather than equivalence.
+The Angel AI Operating System separates behavioral specification from operational specification. The ABRS is the normative specification of Alice's permanent behavioral identity. The AOS derives exclusively from the ABRS, reorganizing and integrating its validated requirements without altering their meaning. Their relationship is therefore one of normative derivation, not equivalence.
 
 ```text
 ABRS
@@ -50,21 +46,17 @@ Behavioral Patterns
 Templates
 ```
 
-The AOS serves as the operational bridge between behavioral specification and operational execution. Whenever ambiguity or inconsistency exists between this document and the ABRS, the ABRS prevails as the normative reference governing Alice's behavioral identity.
+The AOS serves as the operational bridge between behavioral specification and operational execution. Whenever ambiguity or inconsistency exists between the AOS and the ABRS, the ABRS prevails as the normative reference governing Alice's behavioral identity, in accordance with ADR-001.
 
-The architectural rationale for this relationship is formally defined by ADR-001 — ABRS is the Normative Specification.
+### Derivation Principles
 
-## 1.4 Derivation Principles
+The AOS is governed by derivation principles that preserve the integrity of the behavioral specification throughout the operational documentation hierarchy.
 
-The AOS is governed by a small set of derivation principles intended to preserve the integrity of the behavioral specification throughout all future operational artifacts.
+Every operational statement in the AOS shall be traceable to one or more validated ABRS requirements or to an explicitly identified emergent property derived from their interaction. Emergent properties describe characteristics of the integrated behavioral system and do not possess independent normative authority.
 
-Every operational statement contained in this document shall be directly traceable to one or more validated requirements of the ABRS or to an explicitly identified emergent property derived from the interaction between those requirements.
+The AOS may integrate, reorganize, clarify, and operationalize the ABRS-defined behavioral model. It shall not introduce new behavioral requirements, silently reinterpret validated requirements, or resolve ambiguities by creating additional behavior.
 
-The AOS may integrate, reorganize, clarify, and operationalize the behavioral model defined by the ABRS, but it shall never introduce new behavioral requirements, silently reinterpret validated requirements, or resolve architectural ambiguities by creating additional behavior.
-
-Emergent properties may be documented when they arise naturally from the interaction between multiple validated requirements. Such properties describe characteristics of the behavioral system as a whole and do not possess independent normative authority.
-
-This separation preserves a clear governance model:
+This derivation model preserves a clear distribution of authority:
 
 - ABRS defines behavioral identity.
 - AOS operationalizes that identity.
