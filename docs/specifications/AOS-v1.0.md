@@ -448,12 +448,8 @@ The interaction of deliberative tension cases, continuity and identity cases, fa
 
 # 15. References
 
-- ABRS v1.0
+- Project Charter v2.0
+- Alice Behavior Requirements Specification (ABRS) v1.0
 - ADR-001 — ABRS is the Normative Specification
-- Sprint 0.5 — AI Behavior Specification
-
----
-
-# Closing Note
-
-The Alice Operational Specification v1.0 consolidates the validated behavioral identity of Alice into an integrated operational model. It is not a replacement for the ABRS; it is a derived operational artifact whose purpose is to preserve identity while enabling consistent execution across contexts.
+- ADR-002 — Project Documentation Hierarchy
+- Alice Operational Specification (AOS) Document Architecture v1.0
