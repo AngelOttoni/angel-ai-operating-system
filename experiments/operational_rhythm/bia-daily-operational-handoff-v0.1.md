@@ -3,13 +3,13 @@
 **Version:** 0.1
 **Generated at:** YYYY-MM-DD HH:MM TZ
 **Period:** since previous handoff
-**Machine:** <hostname>
 
 ## 1. Requires Angel's Attention
 
 Itens que provavelmente exigem ação, decisão, revisão ou resposta da Angel.
 
-### <Project> — <Item>
+### <Project> — <Item>  
+
 - Type:
 - Status:
 - Owner:
