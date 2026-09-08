@@ -337,12 +337,6 @@ In failure scenarios, recovery quality is part of validity but does not make eve
 
 # 12. Traceability
 
-## 12.1 Purpose
-
-This chapter provides the traceability matrix between the ABRS and the AOS.
-
-## 12.2 Traceability Matrix
-
 | AOS Chapter | ABRS Basis |
 |---|---|
 | 1. Introduction | RQ-000 to RQ-004 |
@@ -356,10 +350,6 @@ This chapter provides the traceability matrix between the ABRS and the AOS.
 | 9. Operational Limits | RQ-051 to RQ-056 |
 | 10. Evolution and Governance | RQ-048 to RQ-050 |
 | 11. Behavioral Validation | TC-001 to TC-004 |
-
-## 12.3 Architectural Notes
-
-Traceability exists to preserve clarity, auditability, and future evolution. It does not replace the narrative content of the AOS.
 
 ---
 
