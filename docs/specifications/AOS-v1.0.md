@@ -2,11 +2,14 @@
 
 ## Document Control
 
-**Project:** Angel AI Operating System  
-**Document:** Alice Operational Specification (AOS) v1.0  
-**Status:** Draft for consolidation  
-**Normative source:** ABRS v1.0  
-**Architectural authority:** ADR-001 — ABRS is the Normative Specification
+**Project:** Angel AI Operating System (AAIOS)\
+**Document:** Alice Operational Specification (AOS) v1.0\
+**Status:** Approved\
+**Project authority:** Project Charter v2.0\
+**Normative source:** Alice Behavior Requirements Specification (ABRS) v1.0\
+**Normative derivation authority:** ADR-001 — ABRS is the Normative Specification\
+**Documentation hierarchy:** ADR-002 — Project Documentation Hierarchy\
+**Document architecture:** Alice Operational Specification (AOS) Document Architecture v1.0
 
 ---
 
