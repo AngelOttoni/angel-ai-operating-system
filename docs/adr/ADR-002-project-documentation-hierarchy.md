@@ -35,7 +35,7 @@ Architecture Decision Records (ADRs)
 Behavior Specifications (ABRS)
         │
         ▼
-Operational Specifications (AOS)
+Operational Specifications
         │
         ▼
 Operational Protocols
@@ -89,7 +89,7 @@ Behavioral changes shall always be introduced here before appearing elsewhere.
 
 ---
 
-## Operational Specifications (AOS)
+## Operational Specifications
 
 Operational Specifications derive exclusively from the corresponding Behavior Specification.
 
@@ -103,7 +103,7 @@ Operational Specifications shall not introduce new behavioral requirements.
 
 Protocols define repeatable operational processes for executing specific activities.
 
-Protocols operationalize the behavior defined by the AOS without modifying it.
+Protocols operationalize the behavior defined by the applicable Operational Specification without modifying it.
 
 ---
 
@@ -143,7 +143,7 @@ Architectural decisions become traceable.
 
 Behavioral identity remains centralized within the ABRS.
 
-Operational behavior remains centralized within the AOS.
+Operational behavior remains centralized within the applicable Operational Specification.
 
 Operational procedures become independent from behavioral specification.
 

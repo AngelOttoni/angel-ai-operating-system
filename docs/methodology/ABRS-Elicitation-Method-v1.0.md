@@ -341,7 +341,7 @@ Application of this methodology produces:
 - explicit architectural rationale for every behavioral domain;
 - validated requirement consolidations;
 - documented engineering decisions;
-- a specification suitable for operationalization through an Operational Specification (AOS).
+- a specification suitable for operationalization through an Operational Specification.
 
 ---
 
@@ -364,7 +364,7 @@ Engineering Methodologies
 Behavior Requirements Specification (ABRS)
         │
         ▼
-Operational Specification (AOS)
+Operational Specification
         │
         ▼
 Operational Protocols
@@ -380,7 +380,7 @@ The methodology governs **how** behavioral specifications are produced.
 
 The ABRS defines **what** behavioral identity is specified.
 
-The AOS defines **how** that identity operates.
+The Operational Specification defines **how** that identity operates.
 
 ---
 

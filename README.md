@@ -6,7 +6,7 @@
 
 # Overview
 
-The **Angel AI Operating System (AOS)** is an engineering project that applies specification-driven development to Human–AI collaboration.
+The **Angel AI Operating System (AAIOS)** is an engineering project that applies specification-driven development to Human–AI collaboration.
 
 Instead of treating AI interaction as prompt engineering, the project defines explicit behavioral identities, operational architectures and governance mechanisms capable of supporting scalable, long-term partnerships between humans and multiple AI agents.
 
@@ -60,7 +60,7 @@ Architecture Decision Records (ADRs)
 Behavior Specifications (ABRS)
         │
         ▼
-Operational Specifications (AOS)
+Operational Specifications
         │
         ▼
 Operational Protocols

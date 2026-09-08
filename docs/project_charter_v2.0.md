@@ -1,6 +1,6 @@
 # Project Charter v2.0
 
-**Project:** Angel AI Operating System (AOS)    
+**Project:** Angel AI Operating System (AAIOS)
 **Status:** Active  
 **Version:** 2.0    
 
@@ -10,7 +10,7 @@
 
 # 1. Executive Summary
 
-The **Angel AI Operating System (AOS)** is an engineering project dedicated to designing a scalable, consistent and governable methodology for long-term collaboration between humans and Artificial Intelligence.
+The **Angel AI Operating System (AAIOS)** is an engineering project dedicated to designing a scalable, consistent and governable methodology for long-term collaboration between humans and Artificial Intelligence.
 
 Rather than optimizing isolated prompts or individual assistants, the project establishes an operational architecture capable of supporting multiple AI partners through shared engineering principles, behavioral specifications, operational specifications and reusable operational artifacts.
 
@@ -110,7 +110,7 @@ Human Collaboration
 Behavior Specification (ABRS)
         │
         ▼
-Operational Specification (AOS)
+Operational Specification
         │
         ▼
 Operational Protocols
@@ -139,7 +139,7 @@ Its primary engineering artifacts include:
 * Architecture Documents
 * Architecture Decision Records (ADRs)
 * Behavior Specifications (ABRS)
-* Operational Specifications (AOS)
+* Operational Specifications
 * Operational Protocols
 * Behavioral Patterns
 * Templates
@@ -287,7 +287,7 @@ Each ADR documents:
 
 Behavioral decisions remain governed by the ABRS.
 
-Operational decisions remain governed by the AOS.
+Operational decisions remain governed by the applicable Operational Specification.
 
 ---
 
