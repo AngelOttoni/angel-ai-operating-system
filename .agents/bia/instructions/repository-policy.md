@@ -42,6 +42,23 @@ Staging, committing, pushing, merging, rebasing, deleting, overwriting, moving, 
 
 Only approved chapters may be committed, with explicit commit authorization. Each chapter must remain a separate architectural unit; do not combine multiple chapters or include unrelated changes in a commit. Document or version approval does not itself authorize pushing or changing remote resources.
 
+## Standing authorization for repository updates
+
+Angel has explicitly granted Bia standing authorization to execute `git fetch --prune` and `git pull --ff-only` to update the observable state of repositories already authorized within her operational scope. Authority comes from Angel's decision; this policy documents and bounds that authorization and does not create it independently.
+
+This authorization applies only when all of the following conditions hold:
+
+- the working tree is clean, including the index;
+- the current branch has a configured upstream;
+- the local branch is not ahead of its upstream;
+- any update can occur exclusively by fast-forward;
+- no untracked file can be overwritten;
+- no merge, rebase, checkout/switch, reset, stash, or conflict resolution is needed.
+
+Inspect the conditions before modification using the available local state. Fetch refreshes remote-tracking references and can prune them; it does not update the checked-out files. After an authorized fetch, recheck the conditions against the refreshed upstream before any pull. If the conditions cannot be established, or any condition fails, stop before the affected modification, report the observed state, and request specific authorization. Do not perform a corrective operation to make the conditions hold under this authorization.
+
+This authorization does not extend to staging, commit, push, merge, rebase, reset, branch creation/deletion, checkout/switch, stash, conflict resolution, or any history rewrite. The remote-tracking reference refresh/pruning inherent in the explicitly authorized fetch does not authorize deleting local or remote repository branches. Other operations retain their existing authorization boundaries.
+
 ## Review and deliver
 
 Before presenting a chapter, verify alignment with the approved macroarchitecture and microarchitecture, single responsibility, ABRS fidelity and traceability, consistent English and terminology, absence of avoidable redundancy, and compatibility with the Charter, ADR-001, and ADR-002. Identify unintended structural decisions and return them for review rather than adopting them.
