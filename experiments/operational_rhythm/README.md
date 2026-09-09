@@ -4,6 +4,16 @@
 **Version:** 0.2
 **Pilot duration:** 7 operational days
 
+## Experimental direction — 2026-09-09
+
+Angel and Alice decided to test Bia's practical usefulness as an end-to-end Daily Brief executor. The [capability/access diagnosis](../../.agents/bia/reports/operational-rhythm-capability-access-matrix.md) and the subsequent ClickUp capability gate provided sufficient evidence to attempt this experiment, not to establish complete coverage or cognitive quality. The gate, recorded in the experimental conversation, resolved multiple-workspace selection and verified bounded task discovery and reading without configuration changes.
+
+The [paired A/B shadow protocol](daily-brief-ab-shadow-test-protocol-v0.1.md) and [Window 1 preparation](runs/2026-09-10/window-1-preparation.md) were prepared but are no longer the active experimental path. Parallel candidates, blind evaluation and blind packaging are suspended. The [blind-delivery dummy test](blind-delivery-dummy-test-2026-09-09.md) remained inconclusive; resolving that gap is not a prerequisite for the next step. These artifacts remain historical, non-normative evidence, with their original conclusions and statuses preserved.
+
+The next step is one experimental Angel Daily Brief executed end-to-end by Bia, only after Angel's subsequent explicit execution authorization. Alice is not a mandatory stage of this experimental runtime. Angel will assess the result directly in use: **Is Bia's autonomously produced Brief sufficiently useful to orient Angel's attention and actions today?** Concrete execution failures will determine whether additional complexity is warranted. The working heuristic for this phase is to prefer the smallest sufficient solution that produces observable value and add structure only when a concrete failure justifies its cost; this is not a normative requirement or persistent policy.
+
+This is a temporary, explicitly authorized experimental exception, not permanent architectural adoption. The existing contracts and canonical documents remain unchanged; the Daily Brief contract's Alice-specific executor wording is temporarily accepted under this exception. Bia may perform bounded cognitive synthesis without acquiring Alice's identity or normative authority, or Angel's final decision authority. Required collection, Angel Capture, visible collection limitations and existing safety/governance boundaries remain applicable; operational-source writes require separate explicit authorization. The sections below retain the existing contractual baseline and are not an instruction to restore the suspended A/B or blind-delivery path.
+
 ## 1. Purpose
 
 The Angel Operational Rhythm experiment evaluates a lightweight operational architecture for integrating information distributed across Angel's work, study, personal organization, and Angel AI Operating System activities into a coherent daily orientation process.
