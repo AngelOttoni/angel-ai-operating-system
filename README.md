@@ -103,11 +103,12 @@ The repository evolves incrementally as the engineering methodology matures.
 - ADR-001 — ABRS is the Normative Specification.
 - ADR-002 — Project Documentation Hierarchy.
 - Alice Behavior Requirements Specification (ABRS v1.0).
+- Alice Operational Specification (AOS v1.0).
 - Project Charter v2.0.
 
 ## In Progress
 
-- Alice Operational Specification (AOS v1.0).
+- Phase 1.0 — Operational Engineering, as recorded in the Project Charter.
 
 ## Planned
 
@@ -237,8 +238,10 @@ This repository is distributed under the terms defined in the project license.
 
 **Active Development**
 
-Current milestone:
+Most recently completed milestone:
 
-> **Sprint 1.0 — Alice Operational Specification (AOS v1.0)**
+> **Sprint 1.0 — Alice Operational Specification (AOS v1.0, Approved)**
 
-The repository currently focuses on consolidating the operational architecture that derives from the Alice Behavior Requirements Specification.
+The AOS v1.0 is approved. The Project Charter continues to record Phase 1.0 —
+Operational Engineering as in progress; no subsequent phase transition is
+declared here.
